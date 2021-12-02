@@ -1,0 +1,18 @@
+.login-bg {
+  background: url("../assets//login-img.svg");
+  background-size: 100% 100%;
+  background-position: right -65px top;
+  background-repeat: no-repeat;
+}
+
+.login-container {
+  background: linear-gradient(163.17deg, #262626 19.27%, #030852 100%);
+}
+
+.welcome-text {
+  color: #fafafa;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 30px;
+  line-height: 35px;
+}
