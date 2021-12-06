@@ -9,8 +9,7 @@ export default function Routes() {
     <Router>
       <Switch>
         <AuthenticatedRoute path={"/auth"} component={AuthDashboard} />
-        <PrivateRoute path="/" component={AuthDashboard} />
-        <Route path={"/home"} component={AuthDashboard} />
+        <PrivateRoute path="/" component={Home} />
       </Switch>
     </Router>
   );

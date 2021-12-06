@@ -16,3 +16,8 @@
   font-size: 30px;
   line-height: 35px;
 }
+
+.error {
+  color: red;
+  text-align: justify;
+}
